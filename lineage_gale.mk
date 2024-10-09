@@ -14,6 +14,18 @@ $(call inherit-product, device/xiaomi/gale/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+#JawaKontol 
+RISING_CHIPSET := MT6768
+RISING_MAINTAINER := 👾Frhndroid👾 
+RISING_PACKAGE_TYPE := VANILLA_AOSP
+TARGET_ENABLE_BLUR :=false
+PRODUCT_NO_CAMERA := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := false
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 PRODUCT_NAME := lineage_gale
 PRODUCT_DEVICE := gale
 PRODUCT_MANUFACTURER := Xiaomi
